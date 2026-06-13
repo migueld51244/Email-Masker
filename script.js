@@ -1,6 +1,13 @@
 let email = document.getElementById("email-area");
 
 function maskEmail(email) {
+  if (email === "") {
+    let err1 = "No email entered!";
+    return (err1)
+  } else if (!email.includes("@")) {
+    let err2 = "Please enter a valid email"
+    return err2;
+  }
   let atIndex = email.indexOf('@');
   let firstChar = email[0];
   let lastChar = email[atIndex - 1];
