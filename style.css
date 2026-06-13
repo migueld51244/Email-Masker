@@ -39,11 +39,15 @@ body {
 
 #email-area {
   width: 450px;
+  padding: 12px;
+  border: 1px solid black;
 }
 
 .submit-btn {
-  border: none;
+  border: 1px solid black;
   color: black;
   background-color: bisque;
   padding: 12px;
+  cursor: pointer;
+  margin-left: 10px;
 }
