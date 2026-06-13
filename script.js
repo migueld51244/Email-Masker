@@ -9,14 +9,16 @@ function maskEmail(email) {
   // Calculate how many characters need to be replaced with '*'
   let starsToRepeat = atIndex - 2;
   let maskedPart = '*'.repeat(starsToRepeat);
-  console.log(firstChar + maskedPart + lastChar + domain);
   return firstChar + maskedPart + lastChar + domain;
 }
 
 document.getElementById("submit").addEventListener(
   "click", () => {
-    let value = email.value;
-    maskEmail(value);
+    let extracted = email.value;
+    let value = maskEmail(extracted);
+    document.querySelector(".masked-result").innerHTML = `Masked email:
+    ${value};
+    `;
   }
 );
 
