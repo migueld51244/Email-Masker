@@ -10,19 +10,40 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f9f9f9;
+  background-color: #d6dfe0;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 800px;
   height: 500px;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  border: 2px solid goldenrod;
 }
 
 .data-area {
   display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.headline {
+  margin-bottom: 30px;
+}
+
+.info-p {
+  margin-bottom: 25px;
+}
+
+#email-area {
+  width: 450px;
+}
+
+.submit-btn {
+  border: none;
+  color: black;
+  background-color: bisque;
+  padding: 12px;
 }
