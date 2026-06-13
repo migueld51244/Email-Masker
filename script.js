@@ -19,3 +19,4 @@ document.getElementById("submit").addEventListener(
     maskEmail(value);
   }
 );
+
