@@ -17,7 +17,7 @@ document.getElementById("submit").addEventListener(
     let extracted = email.value;
     let value = maskEmail(extracted);
     document.querySelector(".masked-result").innerHTML = `Masked email:
-    ${value};
+    ${value}
     `;
   }
 );
