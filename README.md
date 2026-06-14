@@ -5,13 +5,14 @@
 This project is a tool that creates safe, masked versions of emails. It can be implemeneted in websites requiring this feature.
 The process to get the masked email is preety simple:
 
-* Open live demo here: 
+* Open live demo here: [LIVE DEMO](https://migueld51244.github.io/Email-Masker/)
+
 * Input your email adress on the field
 * Click the button
 * The masked version will be returned below the input field
 
 ## Example
-<img>
+![Logo](https://ibb.co/3mQMx9Yv)
 
 ## How to emplement this on your website
 Here is how to add this functionality to your website:
@@ -29,4 +30,4 @@ The code is not fully made yet, altough the basic version works
 * No responsive desing (yet)
 
 ## Like this project?
-Im putting a lot of effort into this as a student. If you liked the idea or the code itself, buy me a coffee! - 
+Im putting a lot of effort into this as a student. If you liked the idea or the code itself, buy me a coffee!
