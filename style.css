@@ -57,4 +57,48 @@ body {
 }
 
 
-/* ADD 810px media querie */
+@media (max-width: 810px) {
+  .container {
+    margin: 1px 20px;
+  }
+}
+
+@media (max-width: 645px) {
+  .container {
+    text-align: center;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    min-width: 80vw;
+  }
+  .data-area {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .submit-btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 524px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    min-width: 80vw;
+    margin: 20px;
+  }
+
+  #email-area {
+    width: 40%;
+  }
+  .submit-btn {
+    margin-top: 20px;
+  }
+
+}
