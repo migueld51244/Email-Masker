@@ -52,6 +52,10 @@ body {
   margin-left: 10px;
 }
 
+.submit-btn:hover {
+  background-color: rgb(234, 203, 165);
+}
+
 .masked-result {
   margin-top: 30px;
 }
