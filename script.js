@@ -1,13 +1,11 @@
-let email = document.getElementById("email-area");
-let err1 = "No email entered!";
-let err2 = "Please enter a valid email"
-
 function maskEmail(email) {
   let result;
   if (email === "") {
+    const err1 = "No email entered!";
     result = err1;
     return result;
   } else if (!email.includes("@")) {
+    const err2 = "Please enter a valid email";
     result = err2;
     return result;
   }
@@ -24,8 +22,9 @@ function maskEmail(email) {
 
 document.getElementById("submit").addEventListener(
   "click", () => {
-    let extracted = email.value;
-    let value = maskEmail(extracted);
+    let input = document.getElementById("email-area");
+    let email = input.value;
+    let value = maskEmail(email);
     if(!value.includes("@") || !value.includes("*")) {
       return document.querySelector(".masked-result").innerHTML = `${value}`;
     }
